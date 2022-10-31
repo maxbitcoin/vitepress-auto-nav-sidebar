@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@rollup/plugin-node-resolve': ^13.1.3
-  '@types/node': ^17.0.21
+  '@types/node': ^17.0.45
   '@typescript-eslint/eslint-plugin': ^5.14.0
   '@typescript-eslint/parser': ^5.14.0
   eslint: ^8.10.0
@@ -16,14 +16,14 @@ specifiers:
 
 devDependencies:
   '@rollup/plugin-node-resolve': 13.1.3_rollup@2.70.1
-  '@types/node': registry.npmmirror.com/@types/node/17.0.21
+  '@types/node': 17.0.45
   '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.14.0_6qcuxdb42yq5wfvodoovog6mya
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.14.0_pzezdwkd5bvjkx2hshexc25sxq
   eslint: registry.npmmirror.com/eslint/8.10.0
   rollup: 2.70.1
   rollup-plugin-terser: 7.0.2_rollup@2.70.1
-  rollup-plugin-typescript2: 0.31.2_wwtzdqnrjsat34ktduvtgn7iwa
-  ts-node: 10.7.0_46pgf7sfaob72lkbqjt5y5pgiu
+  rollup-plugin-typescript2: 0.31.2_xlw65df5d6cmeyfb2spp2nmoye
+  ts-node: 10.7.0_rjeweiubtb4rapvh37doyymzuq
   tslib: registry.npmmirror.com/tslib/2.3.1
   typescript: registry.npmmirror.com/typescript/4.6.2
   vitepress: 1.0.0-alpha.2
@@ -261,14 +261,14 @@ packages:
     resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
     dev: true
 
-  /@types/node/17.0.21:
-    resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==}
+  /@types/node/17.0.45:
+    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
     dev: true
 
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 17.0.21
+      '@types/node': 17.0.45
     dev: true
 
   /@vitejs/plugin-vue/2.3.3_vite@2.9.12+vue@3.2.37:
@@ -405,12 +405,12 @@ packages:
       vue-demi: 0.13.1_vue@3.2.37
     dev: true
 
-  /@yarn-tool/resolve-package/1.0.46_@types+node@17.0.21:
+  /@yarn-tool/resolve-package/1.0.46_@types+node@17.0.45:
     resolution: {integrity: sha512-RJcBGTVywUqYGRtGkPSgJC/ozf0wK/xjUy66tXkbpL35U0o1oef4S0v23euxA/CiukqBWr2fRGtGY6FidESdTg==}
     dependencies:
       pkg-dir: 5.0.0
       tslib: 2.3.1
-      upath2: 3.1.12_@types+node@17.0.21
+      upath2: 3.1.12_@types+node@17.0.45
     transitivePeerDependencies:
       - '@types/node'
     dev: true
@@ -869,7 +869,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 17.0.21
+      '@types/node': 17.0.45
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -1048,14 +1048,14 @@ packages:
       terser: 5.12.1
     dev: true
 
-  /rollup-plugin-typescript2/0.31.2_wwtzdqnrjsat34ktduvtgn7iwa:
+  /rollup-plugin-typescript2/0.31.2_xlw65df5d6cmeyfb2spp2nmoye:
     resolution: {integrity: sha512-hRwEYR1C8xDGVVMFJQdEVnNAeWRvpaY97g5mp3IeLnzhNXzSVq78Ye/BJ9PAaUfN4DXa/uDnqerifMOaMFY54Q==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
     dependencies:
       '@rollup/pluginutils': 4.2.0
-      '@yarn-tool/resolve-package': 1.0.46_@types+node@17.0.21
+      '@yarn-tool/resolve-package': 1.0.46_@types+node@17.0.45
       find-cache-dir: 3.3.2
       fs-extra: 10.0.1
       resolve: 1.22.0
@@ -1158,7 +1158,7 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /ts-node/10.7.0_46pgf7sfaob72lkbqjt5y5pgiu:
+  /ts-node/10.7.0_rjeweiubtb4rapvh37doyymzuq:
     resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
     hasBin: true
     peerDependencies:
@@ -1177,7 +1177,7 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': registry.npmmirror.com/@types/node/17.0.21
+      '@types/node': 17.0.45
       acorn: 8.7.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -1198,12 +1198,12 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /upath2/3.1.12_@types+node@17.0.21:
+  /upath2/3.1.12_@types+node@17.0.45:
     resolution: {integrity: sha512-yC3eZeCyCXFWjy7Nu4pgjLhXNYjuzuUmJiRgSSw6TJp8Emc+E4951HGPJf+bldFC5SL7oBLeNbtm1fGzXn2gxw==}
     peerDependencies:
       '@types/node': '*'
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node/17.0.21
+      '@types/node': 17.0.45
       path-is-network-drive: 1.0.13
       path-strip-sep: 1.0.10
       tslib: 2.3.1
@@ -1379,12 +1379,6 @@ packages:
     resolution: {integrity: sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/json-schema/-/json-schema-7.0.9.tgz}
     name: '@types/json-schema'
     version: 7.0.9
-    dev: true
-
-  registry.npmmirror.com/@types/node/17.0.21:
-    resolution: {integrity: sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-17.0.21.tgz}
-    name: '@types/node'
-    version: 17.0.21
     dev: true
 
   registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.14.0_6qcuxdb42yq5wfvodoovog6mya:

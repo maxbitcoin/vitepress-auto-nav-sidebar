@@ -8,5 +8,6 @@ declare const _default: {
     getFileNameByPath: (dir: string) => string;
     getDirNameByPath: (dir: string) => string;
     hasIndexMd: (path: string) => boolean;
+    fitPlatform: (path: string) => string;
 };
 export default _default;
